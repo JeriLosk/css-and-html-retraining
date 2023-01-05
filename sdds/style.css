@@ -1,0 +1,78 @@
+*{
+    
+    text-decoration: none;
+}
+
+body{
+    display: flexbox;
+    position: relative;
+    background-color: white;
+
+}
+.navbar{
+    display: flex;
+    align-content: flex-start;
+    gap: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 50px;
+    
+}
+.navbutton1{
+    font-size: 5vh;
+     color: rgba(255, 159, 50, 0.849);
+     text-decoration:wavy;
+     text-decoration-color: red;
+}
+.navbutton{
+     font-size: 5vh;
+     color: black;
+     
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    position: absolute;
+    margin: 0px;
+
+}
+
+.title1{
+    color: rgba(255, 159, 50, 0.849);
+    font-size: 9.118541033434651vh;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.title2{
+    color: black;
+    position: relative;
+    font-size: 4.86322188449848vh;
+    left: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.button{
+    background-color:rgba(255, 159, 50, 0.849) ;
+    border: none;
+    color:white;
+    border-radius: 1.0638297872340425vh;
+    font-size: 3.0395136778115504vh;
+    position: relative;
+    top: 39.51367781155015vh;
+    left: 9.118541033434651vh;
+}
+.info{
+    size: 10vh;
+
+}
+
+.img{
+    display: flex;
+    align-content: flex-end;
+    padding-left: 600px;
+
+}
